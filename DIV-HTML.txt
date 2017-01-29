@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Div Example HTML</title>
+</head>
+
+<body>
+<!--Classes-->
+<style>
+	div{direction: ltr;float: left;border: solid 1px #000000}
+	.all_style{width: 100%;}
+	.body     {height: 600px}
+	.logo     {height: 200px}
+	.button   {clear: right;}
+	.RightBox {width:50%;float:right;height:100%}
+	.LeftBox  {width:50%;float:left;height: 100%}
+	.footer   {height: auto; width: 100px}	
+</style>
+
+<div class="all_style"><!--Starting All-->
+ <!--******************HEADER****************************-->
+  <div class="all_style"><!--start header-->
+	<div class="all_style logo">logo</div>
+	  <div class="all_style"><!--menu-->
+	  	 	<div style="width: auto; height: auto;">
+			<a href="http://mohamadnazzal.me/">Home</a>
+	  		</div>
+	  			<div style="width: auto; height: auto;">
+				<a href="http://mohamadnazzal.me/">Register</a>
+	  			</div>
+	  	<form method="post">
+		  			<div class="button">Search </div>
+		  			<div class="button">
+						<input type="text" value="write"></div>
+	  				<div>
+		  				<input type="submit" value="search"></div>
+		</form>
+	  </div>
+  </div>
+	 <!--******************HEADER ENDS**********************-->
+
+	 <!--******************BODY*****************************-->
+	 <!--******************RIGHT BOX*****************************-->
+<div class="all_style body">
+<div class="RightBox">
+<form method="post">
+<table>
+  <tr>
+    <th>Contact Us</th>
+  </tr>
+  <tr>
+    <td>Name</td>
+    <td><input type="text" name="name"></td>
+  </tr>
+  <tr>
+    <td>Email</td>
+    <td><input type="text" name="email"></td>
+  </tr>
+  <tr>
+    <td>Message</td>
+    <td><input type="text" name="message"></td>
+  </tr>
+</table>
+</form>
+</div>
+		 <!--*****************RIGHT BOX ENDS************************-->
+		 <!--*****************LEFT BOX*****************************-->
+<form method="post">
+<table >
+  <tr>
+    <th>Login</th>
+  </tr>
+  <tr>
+    <td>User Name</td>
+    <td><input type="text" name="name"></td>
+  </tr>
+  <tr>
+    <td>Password</td>
+    <td><input type="Password" name="password"></td>
+  </tr>
+</table>
+	    </form>
+		</div>
+		 <!--******************BODY ENDS**********************-->
+		 <!--******************FOOTER*************************-->
+
+<div class="all_style footer_style"> footer </div>
+         
+<div class="footer">    
+ <table >
+  <tr>
+	  <tr>Get in touch</tr>
+  	  <td><a href="#">Our job</a></td>
+  </tr>
+ </table>
+</div> 
+
+<div class="footer">    
+ <table >
+  <tr>
+		<tr>Our Clients</tr>
+   		<td><a href="#">Our Clietns</a></td>
+  </tr>
+</table>
+</div>
+<div class="footer">    
+ <table >
+  <tr>
+     	<tr>About</tr>
+      	<td><a href="#">About</a></td>
+  </tr>
+</table>
+</div>
+ 
+         <!--***************** FOOTER ENDS********************-->
+
+
+<!-- end of all-->
+</div>
+</body>
+</html>
